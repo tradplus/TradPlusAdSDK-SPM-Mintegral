@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.16.0")
+            .exact("15.17.0")
         ),
         .package(
             url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPMintegralAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Mintegral/releases/download/15.16.0/TPMintegralAdapter-15.16.0.xcframework.zip",
-            checksum: "17dc926eba0231a3bbffc49edadee8740797d0d00d4696175c77c8511f519c36"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Mintegral/releases/download/15.17.0/TPMintegralAdapter-15.17.0.xcframework.zip",
+            checksum: "7a6a4768ddd47b70b1c2bfbb302cf0286b56941776ea196d675f46422fe35c7c"
         ),
     ]
 )
